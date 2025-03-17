@@ -14,7 +14,7 @@
 
 **Javier Angulo**
 
-![Foto de Javier Angulo](tu-foto.jpg)
+![Foto de Javier Angulo]
 
 ---
 
@@ -22,11 +22,9 @@
 
 ### Proyecto 1
 
-![Proyecto 1](proyecto1.jpg)
+![Proyecto 1]
 
 **Descripción breve del proyecto...**
-
-[Ver más](enlace-del-proyecto)
 
 ---
 
@@ -42,10 +40,10 @@
 
 Si deseas ponerte en contacto conmigo, aquí tienes mi información:
 
-- **Correo electrónico:** [angulogarnachojavier@alumnos.ilerna.com](https://mail.google.com/mail/u/0/?ogbl#inbox)
+- **Correo electrónico:** [angulogarnachojavier@alumnos.ilerna.com]
 - **Teléfono:** 601050406
-- **LinkedIn:** [linkedin.com/in/tu-perfil](https://www.linkedin.com/in/tu-perfil)
-- **GitHub:** [MI GITHUB](https://github.com/JaviAngulo1)
+- **LinkedIn:** [linkedin.com/in/tu-perfil]
+- **GitHub:** [MI GITHUB]
 
 ---
 
