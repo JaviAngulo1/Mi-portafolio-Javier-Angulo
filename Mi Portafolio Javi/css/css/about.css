@@ -1,0 +1,166 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #080f1d;
+    padding: 1.5rem 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    background: #ffcc00;
+    color: #1e3c72;
+    box-shadow: 0px 0px 10px rgba(255, 204, 0, 0.7);
+}
+
+/* Sección Sobre mí */
+#bio {
+    padding: 100px 0;
+    background-color: #1e3c72; /* Cambié el fondo a azul */
+    color: white; /* Texto blanco sobre fondo azul */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#bio h2 {
+    font-size: 3.5rem;
+    color: #ffcc00;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+
+#bio h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #ffcc00;
+    margin-top: 10px;
+    border-radius: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Disposición de la imagen y el texto */
+.bio-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: left;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.bio-content img {
+    max-width: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    margin-right: 40px; /* Espacio entre la imagen y el texto */
+}
+
+/* Estilo del texto */
+.bio-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #ddd; /* Mantengo un color claro para el texto */
+    max-width: 700px;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Diseño Responsive */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #bio h2 {
+        font-size: 2.5rem;
+    }
+
+    .bio-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bio-content img {
+        max-width: 200px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .bio-content p {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/css/contact.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Contacto</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="projects.html">Proyectos</a></li>
+                    <li><a href="skills.html">Habilidades</a></li>
+                    <li><a href="about.html">Sobre mí</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Formulario de Contacto -->
+    <main>
+        <form id="contact-form" class="contact-form">
+            <h2>Formulario de Contacto</h2>
+
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+
+            <label for="surname">Apellidos:</label>
+            <input type="text" id="surname" name="surname" placeholder="Ingresa tus apellidos" required>
+
+            <div class="gender-group">
+                <label>Género:</label>
+                <label for="male"><input type="radio" id="male" name="gender" value="male"> Masculino</label>
+                <label for="female"><input type="radio" id="female" name="gender" value="female"> Femenino</label>
+                <label for="other"><input type="radio" id="other" name="gender" value="other"> Otro</label>
+            </div>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí" required></textarea>
+
+            <label for="reason">Motivo de Consulta:</label>
+            <select id="reason" name="reason">
+                <option value="general">Consulta General</option>
+                <option value="support">Soporte Técnico</option>
+                <option value="feedback">Retroalimentación</option>
+                <option value="other">Otro</option>
+            </select>
+
+            <div class="terms">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    Acepto los términos y condiciones.
+                </label>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Javier Angulo.</p>
+        </div>
+    </footer>
+</body>
+</html>
