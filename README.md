@@ -39,10 +39,7 @@ Proyecto 1
 
 Si deseas ponerte en contacto conmigo, aquí tienes mi información:
 
-- **Correo electrónico:** angulogarnachojavier@alumnos.ilerna.com
-- **Teléfono:** 601050406
-- **LinkedIn:** linkedin.com/in/tu-perfil
-- **GitHub:** MI GITHUB
+RELLENA EL FORMULARIO
 
 ---
 
